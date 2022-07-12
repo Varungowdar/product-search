@@ -1,0 +1,129 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+/* close commented backslash hack */
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 40px;
+  color: rgb(1, 1, 59);
+}
+
+.search {
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 14px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+
+.suggestion-box {
+  height: 300px;
+  box-sizing: border-box;
+  width: 30%;
+  box-shadow: 1px 20px 40px #efefef;
+  padding: 20px;
+  overflow-y: auto;  
+  min-height: 300px;
+}
+
+.product-suggestions img {
+  width: 50px;
+  float: left;
+}
+
+.product-name-suggestion {
+  float: left;
+  margin-left: 18px;
+  display: block;
+}
+
+.product-price-suggestion {
+  float: right;
+  display: block;
+}
+
+.product-suggestions a {
+  color: #000;
+}
+
+.product-listing-wrapper img {
+  width: 100px;
+  display: block;
+  align-items: center;
+  margin: 10px auto 20px auto;
+}
+
+.product-price-listing {
+  float: right;
+  display: block;
+}
+
+.product-listing li {
+  width: 31%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  height: 250px;
+  box-shadow: 1px 2px 7px #eee;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.product-listing a {
+  color: #000;
+  text-decoration: none;
+}
+.product-name-listing {
+  float: left;
+  width: 70%;
+  font-size: 13px;
+  line-height: 18px;
+}
+.product-listing p {
+  margin: 0;
+}
+.product-listing-wrapper {
+  width: 50%;
+  padding: 20px;
+}
+
+.product-price-drop {
+  font-size: 12px;
+}
