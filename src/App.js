@@ -144,7 +144,7 @@ function App() {
           <ul className="product-listing">{productList}</ul>
         </div>
       ) : (
-        ""
+        <h2 className="available-products">No products to display</h2>
       )}
     </div>
   );
